@@ -25,7 +25,7 @@ body {
   .todo {
     display: block;
     padding: 16px;
-    color: darkgray;
+    color: black;
     background-color: white;
   }
   .todo input {
@@ -60,6 +60,7 @@ body {
   }
   .todo input:checked + label {
     text-decoration: line-through;
+    color: darkgray;
   }
   
   .add-todo {
@@ -87,4 +88,9 @@ body {
     line-height: 17px;
     border: 1px solid dimgray;
     background-color: darkblue;
+  }
+
+  .left-todo {
+    color : black;
+    background-color: white;
   }

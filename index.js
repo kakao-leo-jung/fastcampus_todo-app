@@ -1,4 +1,4 @@
-import Todo from "./src/Todo";
+import TodoApp from "./src/TodoApp";
 
-const studyTodo = new Todo("공부하기", false);
-console.log(studyTodo)
+const todoApp = new TodoApp();
+todoApp.init();

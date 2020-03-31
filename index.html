@@ -5,23 +5,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
+  <title>Todo-List</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="title">
     <h1>나의 하루</h1>
-    <h2>10월 28일</h2>
+    <h2 name="h2_date"></h2>
+  </div>
+  <div class="left-todo">
+    <span>남은 할일 : </span>
+    <span name="span_left"></span>
   </div>
   <div class="todo-container">
-    <div class="todo"><input type="checkbox" /> <label>공부하기</label></div>
-    <div class="todo"><input type="checkbox" /> <label>놀기</label></div>
-    <div class="todo"><input type="checkbox" /> <label>밥먹기</label></div>
   </div>
   <div class="add-todo">
-    <button>+</button>
-    <input type="text" placeholder="할 일 추가" />
+    <button name="btn_add">+</button>
+    <input name="input_add" type="text" placeholder="할 일 추가" />
   </div>
   <script src="./index.js"></script>
 </body>
